@@ -1,0 +1,19 @@
+.bm{
+  padding: 10px;
+  background-color: aqua;
+  width:90px;
+  border:20px solid greenyellow;
+  display: inline-block;
+  margin: 30px;
+
+
+}
+ul{
+  display: inline-block;
+}
+#pg
+{
+  text-decoration:none;
+  font-size: large;
+  color: black;
+}

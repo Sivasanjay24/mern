@@ -1,0 +1,16 @@
+.ec{
+  text-decoration: underline;
+
+}
+.pec
+{
+  font-size: large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  background-color: rgb(136, 242, 242);
+}
+#pg{
+  text-decoration:none;
+  font-size: large;
+  color: black;
+}
