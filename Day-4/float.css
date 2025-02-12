@@ -1,0 +1,26 @@
+#img{
+  width:300px;
+  height:auto;
+  border: 10px solid rgb(0, 0, 0);
+}
+.float1{
+  float:left;
+  margin-right: 20px;
+}
+.float2{
+  float:right;
+  margin-left: 20px;
+}
+input[type=text]{
+  border: 2px solid purple;/*styling for particular field*/
+}
+input[type=number]{
+  border: 2px solid goldenrod;
+}
+input{
+    border-radius: 20px;/*styling for all field*/
+}
+button{
+  color: aqua;
+  background-color: black;
+}
