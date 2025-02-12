@@ -1,7 +1,7 @@
 #img{
-  width:300px;
-  height:auto;
-  border: 10px solid rgb(0, 0, 0);
+  height:200px;
+  width:auto;
+  /* border: 2px solid rgb(0, 0, 0); */
 }
 .float1{
   float:left;
@@ -23,4 +23,7 @@ input{
 button{
   color: aqua;
   background-color: black;
+}
+h2{
+  text-decoration: underline;
 }
