@@ -1,0 +1,41 @@
+header{
+  background-color: blue;
+
+}
+nav{
+  display:flex;
+  list-style: none;
+  justify-content:space-evenly;
+  margin:0;
+  padding: 20px;
+}
+body{
+  margin: 0;
+  background-color: rgb(183, 217, 247);
+}
+.link{
+  text-decoration: none;
+  color:#fff;
+  padding: 5px;
+}
+.link:hover
+{
+  color:blue;
+  background-color: #fff;
+  border-radius: 10px;
+}
+img{
+  height:40px;
+  width:auto;
+}
+h1{
+  color: #fff;
+  display: inline;
+  font-size: 60px;
+}
+p{
+  font-size: xx-large;
+  text-align: center;
+  padding: 50px;
+  margin:100px
+}
