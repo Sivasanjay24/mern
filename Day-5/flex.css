@@ -39,3 +39,19 @@ p{
   padding: 50px;
   margin:100px
 }
+.abt
+{
+  color: rgb(101, 97, 10);
+  font-size: x-large;
+}
+.grid
+{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 200px;
+}
+#img
+{
+  height: 80px;
+  width:auto;
+}
