@@ -30,7 +30,7 @@ console.log(array)*/
 {
   firstname :"Sivasanjay",
   lastname : "S",
-  dept:["cse","it","ece","mech"]        // declaration-first way
+  dept:["cse","it","ece","mech"],       // declaration-first way
   training : "mern"
 }
 obj2={}                                 //declaration-second way
@@ -90,5 +90,38 @@ console.log(~c)//-14
 console.log(10<<3)//80
 console.log(10>>3)//1*/
 
+//Example for looping
 
+//for in
 
+/*array = [10,20,30,"abc",true,"hello",[1,2,3]]
+for(i in array)
+{
+  console.log(i)             //prints keyy
+}*/
+
+//for of
+
+/*array = [10,20,30,"abc",true,"hello",[1,2,3]]
+for(i of array)
+{
+  console.log(i)            //prints value
+}*/
+
+//for each
+
+/*array = [10,20,30,"abc",true,"hello",[1,2,3]]
+array.forEach((ele) => {
+  console.log(ele)
+});*/
+
+/*obj1 =
+{
+  firstname :"Sivasanjay",
+  lastname : "S",
+  dept:["cse","it","ece","mech"],       // declaration-first way
+  training : "mern"
+}
+Object.entries(obj1).forEach((i,j)=>{
+  console.log(i,j)
+})*/
