@@ -185,4 +185,6 @@ var arrow =()=>
 }
 obj = new hello();
 console.log(obj.a)//10
-console.log(obj.testfun())// hello ,undefined(sice it does return anything)*/
+console.log(obj.testfun())// hello ,undefined(sice it does return anything)
+console.log(hello().testfun())//Error(Not a function)
+console.log(new hello().testfun())//hello ,undefined*/
