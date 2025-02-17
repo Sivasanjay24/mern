@@ -1,8 +1,15 @@
 function testfunction()
 {
-  console.log("This is a test functioin") //Without parameter without ar
+  console.log("This is a test functioin") //Without parameter without argument
 }
 testfunction()
-//task-1 {} in for of
-//task-2 with and without parameter and argument
-//task-3 only print key and value only without symbol
+function testfunction1 (n)
+{
+  console.log(n)
+}
+testfunction1(5)
+function testfunction1 ()
+{
+  console.log()
+}
+testfunction2("g")
