@@ -125,3 +125,19 @@ array.forEach((ele) => {
 Object.entries(obj1).forEach((i,j)=>{
   console.log(i,j)
 })*/
+
+//output
+/*[ 'firstname', 'Sivasanjay' ] 0
+  [ 'lastname', 'S' ] 1
+  [ 'dept', [ 'cse', 'it', 'ece', 'mech' ] ] 2
+  [ 'training', 'mern' ] 3*/
+
+/*Object.entries(obj1).forEach(([i,j])=>{
+  console.log(i,j)
+})*/
+
+//output
+/*firstname Sivasanjay
+lastname S
+dept [ 'cse', 'it', 'ece', 'mech' ]
+training mern */
