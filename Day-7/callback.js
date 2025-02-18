@@ -28,18 +28,6 @@ function formvalidation()
 
 formsubmit("Form succesful",formvalidation)*/
 
-
-//Asynchronous function
-
-/*async function asf()
-{
-  setTimeout(function()
-{
-  console.log("Hello");
-},5000) 
-}
-asf();*/
-
 //rest operator
 
 /*function print(a, b, ...restOpr){
