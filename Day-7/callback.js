@@ -31,11 +31,18 @@ formsubmit("Form succesful",formvalidation)*/
 
 //Asynchronous function
 
-async function asf()
+/*async function asf()
 {
   setTimeout(function()
 {
   console.log("Hello");
 },5000) 
 }
-asf();
+asf();*/
+
+//rest operator
+
+/*function print(a, b, ...restOpr){
+  console.log(restOpr);
+}
+print(10,20,30,40,50)*/
