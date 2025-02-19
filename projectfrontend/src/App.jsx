@@ -7,6 +7,7 @@ import About from './components/Functionalcomponents/about'
 import Signup from './components/Functionalcomponents/signup'
 import Contact from './components/Functionalcomponents/contact'
 import Gallery from './components/Functionalcomponents/gallery'
+import Login from './components/Functionalcomponents/login'
 //import Classcomp from './components/Classcompenents/classcomp'
 import Navbar from './components/Functionalcomponents/navbar'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
@@ -26,7 +27,7 @@ function App() {
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/useeffect' element={<Use_Effect/>}/>
         <Route path='/usestate' element={<Use_State/>}/>
-
+        <Route path='/login' element={<Login/>}/>
       </Routes>
       </BrowserRouter>
     </main>
