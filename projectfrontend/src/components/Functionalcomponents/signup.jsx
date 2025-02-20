@@ -1,19 +1,12 @@
 import '../css/signup.css'
 import {Link} from 'react-router-dom';
 function details()
-{
-  var styling = {
-    textAlign:"center",
-    backgroundColor:"blue",
-    color:"white"
-  }
-  
+{ 
   return (
     <div>
-      <h1 style={styling}>Signup page</h1>
       <center>
-    <form class="fm">
-    <table class="fr">
+    <form className="fm">
+    <table className="fr">
     <tr><td><label for="Firstname">Firstname</label></td>
     <td><input type="text" placeholder="Enter your Firstname" required></input></td></tr>
     <tr><td><label for="Lastname">Lastname</label></td>
@@ -28,8 +21,8 @@ function details()
     <td><input type="date" placeholder="Enter your D.O.B"required></input></td></tr>
     <tr><td><label for="number">Mobile no</label></td>
     <td><input type="text" placeholder="Enter your Mobilenum"required></input></td></tr></table>
-    <button class="bt" type='submit'>Signup</button><br></br>
-    <Link class="L" to="./login">Already have account?</Link>
+    <button className="bt" type='submit'>Signup</button><br></br>
+    <Link className="L" to="/login">Already have account?</Link>
   </form>
   </center>
 

@@ -13,6 +13,9 @@ import Navbar from './components/Functionalcomponents/navbar'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Use_Effect from './components/Functionalcomponents/hooks/useeffect'
 import Use_State from './components/Functionalcomponents/hooks/usestate'
+import EffectApi from './components/Functionalcomponents/hooks/use-effect-api'
+import Useref from './components/Functionalcomponents/hooks/useref'
+import Usememo from './components/Functionalcomponents/hooks/usememo'
 function App() {
 
   return (
@@ -28,6 +31,9 @@ function App() {
         <Route path='/useeffect' element={<Use_Effect/>}/>
         <Route path='/usestate' element={<Use_State/>}/>
         <Route path='/login' element={<Login/>}/>
+        <Route path='/useeffapi' element={<EffectApi/>}/>
+        <Route path='/useref' element={<Useref/>}/>
+        <Route path='/usememo'element={<Usememo/>}/>
       </Routes>
       </BrowserRouter>
     </main>

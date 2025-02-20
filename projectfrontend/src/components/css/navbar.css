@@ -9,27 +9,24 @@ nav
 }
 .li
 {
-  float: left;
   color:white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 15px; 
   text-decoration: none;
 }
 .list
 {
-  display:none;
-  position: absolute;
+  display:block;
+  position:absolute;
   background-color:rgb(139, 183, 236);
   border-radius: 10px;
-  min-width: 160px;
-  z-index: 1;
+  width:150px;
 }
 .dropbtn {
   display: inline-block; 
   color: rgb(224, 230, 232);
   background-color: rgb(20, 133, 233);
-  padding: 14px 16px;
-  text-align: center;
+  padding: 15px 15px;
 }
 
 
@@ -42,21 +39,15 @@ nav
 
 .dc{
   color: rgb(0, 0, 0);
-  padding: 12px 16px;
+  padding: 12px 10px;
   text-decoration: none;
   display: block;
-  text-align:left;
   border-radius: 10px;
 
 }
 .dc:hover
 {
   background-color: rgb(255, 255, 255);
-}
-
-.dd:hover .list
-{
-  display:block;
 }
 
 

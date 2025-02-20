@@ -30,14 +30,12 @@ center {
   color: #fff;
   padding: 20px;
 }
-button {
+.bt{
   background: rgb(244, 43, 43);
   color: white;
-  border: none;
+  border: solid 1px black;
   padding: 10px 15px;
-  font-size: 16px;
   border-radius: 5px;
-  margin-top: 10px;
 }
 .L{
   color:blue;

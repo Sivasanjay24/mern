@@ -1,23 +1,29 @@
 import {Link} from 'react-router-dom';
+import { useState } from 'react';
 import '../css/navbar.css'
 const navbar = ()=>
 {
+  var [dd,showdd] =useState(false)
   return(
   <header>
     <nav>
-      <Link class="li" to='/'>Home</Link>
-      <Link class="li" to='/about'>About</Link>
-      <Link class="li" to='/gallery'>Gallery</Link>
-      <Link class="li" to='/contact'>Contact</Link>
-        <div class="dd">
-          <h class ="dropbtn" >Hooks</h>
-          <div class="list">
-            <Link class ="dc" to='/usestate'>Use State</Link>
-            <Link class ="dc" to='/useeffect'>Use Effect</Link>
-          </div>
+      <Link className="li" to='/'>Home</Link>
+      <Link className="li" to='/about'>About</Link>
+      <Link className="li" to='/gallery'>Gallery</Link>
+      <Link className="li" to='/contact'>Contact</Link>
+        <div className="dd" onMouseEnter={()=>showdd(!dd)} onMouseLeave={()=>showdd(!dd)}>
+          <span className ="dropbtn" >Hooks</span>
+          {dd &&
+          (<div className="list">
+            <Link className ="dc" to='/usestate'>Use State</Link>
+            <Link className ="dc" to='/useeffect'>Use Effect</Link>
+            <Link className ="dc" to ='/useeffapi'>Use Effect Api</Link>
+            <Link className='dc' to='/useref'>Use Ref</Link>
+            <Link className='dc' to='/usememo'>Use Memo</Link>
+          </div>)
+          }
         </div>
-      <Link class="li" to='/signup'>Signup</Link>
-      <Link class="li" to='/login'>Login</Link>
+      <Link className="li" to='/login'>Login</Link>
     </nav>
   </header>)
 }
