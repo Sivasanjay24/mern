@@ -13,20 +13,23 @@ nav
   text-align: center;
   padding: 15px 15px; 
   text-decoration: none;
+  transition: ease-in-out 0.5s;
 }
 .list
 {
   display:block;
   position:absolute;
-  background-color:rgb(139, 183, 236);
+  background-color:rgb(227, 234, 243);
   border-radius: 10px;
   width:150px;
+  top:67px;
 }
 .dropbtn {
   display: inline-block; 
   color: rgb(224, 230, 232);
   background-color: rgb(20, 133, 233);
   padding: 15px 15px;
+  transition:ease-in-out 0.5s;
 }
 
 
@@ -43,11 +46,11 @@ nav
   text-decoration: none;
   display: block;
   border-radius: 10px;
-
+  transition:300ms
 }
 .dc:hover
 {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(172, 213, 250);
 }
 
 

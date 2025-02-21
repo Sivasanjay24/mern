@@ -20,6 +20,8 @@ const navbar = ()=>
             <Link className ="dc" to ='/useeffapi'>Use Effect Api</Link>
             <Link className='dc' to='/useref'>Use Ref</Link>
             <Link className='dc' to='/usememo'>Use Memo</Link>
+            <Link className='dc' to='/usecallback'>Use Callback</Link>
+            <Link className='dc' to='/usememoize'>Use Memoise</Link>
           </div>)
           }
         </div>
