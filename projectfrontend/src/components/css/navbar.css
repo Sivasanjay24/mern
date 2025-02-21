@@ -52,5 +52,29 @@ nav
 {
   background-color: rgb(172, 213, 250);
 }
+.list1
+{
+  display:block;
+  position:absolute;
+  background-color:rgb(227, 234, 243);
+  border-radius: 10px;
+  width:150px;
+  top:67px;
+}
+.dropbtn1 {
+  display: inline-block; 
+  color: rgb(224, 230, 232);
+  background-color: rgb(20, 133, 233);
+  padding: 15px 15px;
+  transition:ease-in-out 0.5s;
+}
+
+
+.dd1:hover .dropbtn1 {
+  
+  color:rgb(20, 133, 233);
+  background-color: white;
+  border-radius: 100px;
+}
 
 

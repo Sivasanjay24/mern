@@ -1,7 +1,3 @@
-/*import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'*/
-import './App.css'
 import Home from './components/Functionalcomponents/home'
 import About from './components/Functionalcomponents/about'
 import Signup from './components/Functionalcomponents/signup'
@@ -19,6 +15,8 @@ import Usememo from './components/Functionalcomponents/hooks/usememo'
 import Usecallback from './components/Functionalcomponents/hooks/usecallback'
 import Usememoize from './components/Functionalcomponents/hooks/usememoize'
 import HOC from './components/Functionalcomponents/Hoc/hoc1'
+import MP from './components/Functionalcomponents/Memoization/memo'
+import LDS from './components/Functionalcomponents/Memoization/lazyloadsuspense'
 function App() {
 
   return (
@@ -40,6 +38,8 @@ function App() {
         <Route path='/usecallback'element={<Usecallback/>}/>
         <Route path='/usememoize'element={<Usememoize/>}/>
         <Route path='/hoc' element={<HOC/>}/>
+        <Route path='/mp' element={<MP/>}/>
+        <Route path='/lds' element={<LDS/>}/>
       </Routes>
       </BrowserRouter>
     </main>
