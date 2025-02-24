@@ -17,6 +17,7 @@ import Usememoize from './components/Functionalcomponents/hooks/usememoize'
 import HOC from './components/Functionalcomponents/Hoc/hoc1'
 import MP from './components/Functionalcomponents/Memoization/memo'
 import LDS from './components/Functionalcomponents/Memoization/lazyloadsuspense'
+import Result from './components/Functionalcomponents/context_api/exam'
 function App() {
 
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path='/hoc' element={<HOC/>}/>
         <Route path='/mp' element={<MP/>}/>
         <Route path='/lds' element={<LDS/>}/>
+        <Route path='/res' element={<Result/>}/>
       </Routes>
       </BrowserRouter>
     </main>

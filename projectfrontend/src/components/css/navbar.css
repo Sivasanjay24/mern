@@ -4,8 +4,8 @@ nav
   list-style-type: none;
   background-color:rgb(20, 133, 233);
   justify-content: space-around;
-  border-radius: 10px;
   padding:10px;
+  border-radius: 10px;
 }
 .li
 {
