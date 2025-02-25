@@ -9,3 +9,4 @@ const signupSchema = mdb.Schema
 })
 const signupModel = mdb.model('signup', signupSchema);
 module.exports = signupModel;
+
