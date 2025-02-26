@@ -73,8 +73,5 @@ app.post("/login",async (req, res) => {
     res.status(201).json({message:"Login Error",islogged:false})
   }
 });
-app.get("/", (req, res) => {
-  res.sendFile("C:\\Users\\sanja\\Desktop\\mern\\Day-3\\bcss.html");
-})
 
 app.listen(port, () => console.log(`Server is running on port: ${port}`));
