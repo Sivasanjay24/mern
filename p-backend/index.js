@@ -73,5 +73,8 @@ app.post("/login",async (req, res) => {
     res.status(201).json({message:"Login Error",islogged:false})
   }
 });
+app.get("/", (req, res) => {
+  res.send("<h1>Welcome to Backend</h1>");
+})
 
 app.listen(port, () => console.log(`Server is running on port: ${port}`));
