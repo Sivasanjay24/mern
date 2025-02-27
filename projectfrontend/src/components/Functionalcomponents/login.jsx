@@ -8,10 +8,10 @@ function login()
       <center>
     <form class="fm">
     <table class="fr">
-    <tr><td><label for="Firstname">Firstname</label></td>
-    <td><input type="text" placeholder="Enter your Firstname" required></input></td></tr>
+    <tr><td><label for="email">Email</label></td>
+    <td><input type="email"  required></input></td></tr>
     <tr><td><label for="password">Password</label></td>
-    <td><input type="password" placeholder="Enter your Password" required></input></td></tr>
+    <td><input type="password" required></input></td></tr>
     </table>
     <button className='bt' type='submit'>Login</button>
     <p>(or)</p>
