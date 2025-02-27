@@ -12,12 +12,27 @@ function details()
   const handleSignup = (event)=>
   {
     event.preventDefault();  
-    axios.post("http://localhost:3000/signup",{
+    axios.post("https://mern-dot7.onrender.com/signup",{
     firstname:firstName,
     lastname:lastName,
     email:email,
     password:pass,
-    phonenumber:phonenumber});
+    phonenumber:phonenumber
+  }).then(response=>{
+    console.log(response.data);
+    if(response.data.isSignup)
+    {
+      alert("Signup Succesful");
+    }
+    else{
+      alert("Sign up failed")
+    }
+  })
+  .catch(err=>
+  {
+    console.error("There was an error signing up!",err)
+  }
+  )
   }
   return (
     <div>
