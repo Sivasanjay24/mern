@@ -12,7 +12,7 @@ function details()
   const handleSignup = (event)=>
   {
     event.preventDefault();  
-    axios.post("https://mern-dot7.onrender.com/signup",{
+    axios.post("http://localhost:3000/signup",{
     firstname:firstName,
     lastname:lastName,
     email:email,
