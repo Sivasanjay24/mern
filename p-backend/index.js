@@ -17,7 +17,7 @@ app.options('/signup', (req, res) => {
 
 app.use(cors(
   {
-  origin: 'https://mern-sandy-three.vercel.app/', 
+  origin: 'https://mern-sandy-three.vercel.app', 
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials:true
   }
