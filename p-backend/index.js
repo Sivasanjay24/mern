@@ -8,7 +8,13 @@ dotenv.config();
 const app = express();
 const mdb = require("mongoose");
 app.use(express.json());
-app.use(cors());
+app.use(cors(
+  {
+  origin: 'https://mern-sandy-three.vercel.app', 
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true,
+  }
+));
 const port = 3000;
 
 mdb
@@ -30,7 +36,7 @@ app.post("/signup", async (req, res) => {
     });
     signups.save();
     console.log("Signup successful");
-    console.log(req.body);
+
     res.status(201).json({ message: "Signup successful", isSignup: true });
   } catch (error) {
     console.log("Error", error);
