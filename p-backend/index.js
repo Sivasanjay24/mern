@@ -8,10 +8,18 @@ dotenv.config();
 const app = express();
 const mdb = require("mongoose");
 app.use(express.json());
+app.options('/signup', (req, res) => {
+  res.header('Access-Control-Allow-Origin', 'https://mern-sandy-three.vercel.app');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  res.send();
+});
+
 app.use(cors(
   {
-  origin: 'https://mern-sandy-three.vercel.app', 
+  origin: 'https://mern-sandy-three.vercel.app/', 
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials:true
   }
 ));
 const port = 3000;
