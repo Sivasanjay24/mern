@@ -23,9 +23,9 @@ app.use(cors(
   }
 ));
 const port = 3000;
-
+const MONGO_URL=process.env.MONGO_URL
 mdb
-  .connect(process.env.MONGO_URL)
+  .connect(MONGO_URL)
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => {
     console.log("Failed", err);
